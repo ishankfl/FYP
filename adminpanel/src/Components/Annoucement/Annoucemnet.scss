@@ -1,0 +1,105 @@
+.annoucement-form {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    
+    .detail-view {
+      background-color: #f9f9f9;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .detail-view form {
+      margin-bottom: 20px;
+    }
+    
+    .detail-view label {
+      font-weight: bold;
+    }
+    
+    .detail-view input[type="text"],
+    .detail-view textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-sizing: border-box;
+    }
+    
+    .detail-view textarea {
+      height: 100px; /* Adjust height as needed */
+    }
+    
+    .detail-view button {
+      background-color: #007bff;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    
+    .detail-view button:hover {
+      background-color: #0056b3;
+    }
+    
+    .modal {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.7);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .modal-content {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+    
+    .close {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      cursor: pointer;
+    }
+
+    .detail-view input[type="text"],
+.detail-view textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px; /* Adjust font size as needed */
+}
+
+.detail-view input[type="text"]:focus,
+.detail-view textarea:focus {
+  outline: none;
+  border-color: #007bff; /* Change border color on focus */
+}
+
+form div{
+  padding: 15px;
+
+  label{
+    font-weight:100 !important;
+
+  }
+  button{
+    
+    padding:100px;
+  }
+}

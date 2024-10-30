@@ -1,0 +1,195 @@
+.provider-details {
+      display: flex;
+      flex-direction: row;
+      // gap: 5%;
+      // padding: 20px; /* Add padding for better spacing */
+    }
+    /* Styles for tab bar */
+/* Tab bar styles */
+.tab-bar {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.detail-view{
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px; /* Add padding for better spacing */
+}
+/* Tab button styles */
+.tab-bar button {
+  padding: 10px 20px;
+  background-color: #093660; /* Tab button background color */
+  color: #fff; /* Tab color */
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+  border-radius: 5px 5px 0 0;
+  transition: background-color 0.3s ease;
+}
+
+/* Active tab button styles */
+.tab-bar button.active {
+  background-color: #5FA8F9; /* Active tab button background color */
+}
+
+/* Styles for provider list */
+.provider-list {
+  border: 1px solid #ccc;
+  border-top: none;
+  padding: 20px;
+  border-radius: 0 0 5px 5px;
+}
+
+/* Styles for tab content */
+.provider-list ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Animation for tab content */
+.provider-list ul {
+  animation: fadeIn 0.5s ease;
+}
+
+/* Keyframes for fadeIn animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+    // .sidebar {
+    //   flex: 0 0 20%; /* Set the width of the sidebar */
+    // }
+    .service-provider-table{
+      padding: 50px 10px;
+    }
+    .provider-details table {
+      flex: 1; /* Fill the remaining space with the table */
+      border-collapse: collapse;
+      width: 100%;
+    }
+    
+    .provider-details th {
+      height: 20px;
+    }
+    
+    .provider-details th,
+    .provider-details td {
+      padding: 8px;
+      border: 1px solid #ddd; /* Add borders to table cells */
+      text-align: left;
+    }
+    
+    .provider-details th {
+      background-color: #f2f2f2;
+    }
+    
+    .provider-details .profile-img,
+    .provider-details .certificate-img {
+      max-width: 100px; /* Limit the size of profile and certificate images */
+      height: auto;
+    }
+    
+    .profile-img{
+      max-height: 100px;
+      width: 300px;
+    }
+    .certificate-img{
+      height: 200px;
+    }
+    /* Add these styles to your existing CSS file or create a new one */
+
+/* Modal styles */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Drop shadow for the modal */
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+/* Style for the certificate image inside the modal */
+.modal-content img {
+  max-width: 90%; /* Adjust the width of the image as needed */
+  max-height: 90vh; /* Adjust the maximum height of the image as needed */
+  // filter: blur(5px); /* Add a blur effect to the background */
+}
+// slider
+.toggle-switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 24px;
+}
+
+.toggle-switch input {
+  display: none;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 34px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  left: 2px;
+  bottom: 2px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+.edit-update-btn button{
+  margin: 10px !important;
+}

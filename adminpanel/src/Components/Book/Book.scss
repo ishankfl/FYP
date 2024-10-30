@@ -1,0 +1,35 @@
+/* BookDetail.css */
+
+/* Style for the table */
+table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+      border: 1px solid #dddddd;
+    }
+    
+    /* Style for table headers */
+    th {
+      background-color: #f2f2f2;
+      border: 1px solid #dddddd;
+      padding: 10px;
+      text-align: left;
+    }
+    
+    /* Style for table cells */
+    td {
+      border: 1px solid #dddddd;
+      padding: 10px;
+      text-align: left;
+    }
+    
+    /* Style for alternating rows */
+    tr:nth-child(even) {
+      background-color: #f8f8f8;
+    }
+    
+    /* Style for fixed row height */
+    tr {
+      height: 50px; /* Adjust the height as needed */
+    }
+    

@@ -1,0 +1,14 @@
+/* Layout.css */
+.layout {
+      display: flex;
+    }
+    
+    .main-content {
+      flex: 1; /* Takes remaining space */
+      padding-left: 250px; /* Adjust based on sidebar width */
+      width: 100vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    

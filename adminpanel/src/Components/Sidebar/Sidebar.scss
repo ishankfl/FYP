@@ -1,0 +1,95 @@
+// Sidebar.scss
+
+.top-bar {
+  height: 80px;
+  width: calc(100vw - 250px); /* Adjusted width to accommodate the left sidebar */
+  position: fixed;
+  background-color: #fff; /* Adjust background color as needed */
+  top: 0;
+  left: 250px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* Adjust shadow parameters as needed */
+  display: flex !important;
+  align-items: center;
+  justify-content: right;
+
+  .profile-name{
+    padding: 100px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+
+    svg{
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background-color: rgb(255, 255, 255);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    p{
+      font-size: 20px;
+      font-weight: 600;
+    }
+
+  }
+}
+
+.sidebar-container {
+      height: 100%;
+      display: flex;
+      position: fixed;
+    }
+    
+    .sidebar {
+      height: 100vh ;
+      width: 250px;
+      background-color: #333;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .sidebar-header {
+      padding: 20px;
+      text-align: center;
+      font-size: 1.5rem;
+      border-bottom: 1px solid #555;
+    }
+    
+    .sidebar-second-menu, .sidebar-menu {
+      list-style-type: none;
+      padding: 20px;
+      margin: 20px 0;
+
+      li{      
+      display: flex;
+      flex-direction: row;
+      // justify-content: center;
+      align-items: center;
+
+   svg{
+      padding-right: 20px !important;
+
+    }}
+      li {
+        margin-bottom: 10px;
+    
+        a {
+          color: #fff;
+          text-decoration: none;
+          padding: 10px;
+          display: block;
+          transition: background-color 0.3s ease;
+    
+          &:hover {
+            background-color: #555;
+          }
+        }
+      }
+    }
+    
+
+    
