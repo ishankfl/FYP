@@ -1,0 +1,8 @@
+clientside/build
+
+/clientside/.dart_tool/
+
+clientside/build/
+clientside/.dart_tool/
+
+serverside/virtualenv
