@@ -1,0 +1,14 @@
+export 'loginsignupmodel/login_model.dart';
+export 'package:bookme/data/model/service_provider_model.dart';
+export 'package:bookme/data/model/user_model.dart';
+export 'package:bookme/data/model/bid/bid_model.dart';
+export 'package:bookme/data/model/book_related_models/booking_model.dart';
+export 'package:bookme/data/model/customer_model.dart';
+export 'package:bookme/data/model/time_validation_model.dart';
+export 'package:bookme/data/model/services_model.dart';
+export 'package:bookme/data/model/profile_model.dart';
+export 'package:bookme/data/model/loginsignupmodel/provider_signup_responsemodel.dart';
+export 'package:bookme/data/model/loginsignupmodel/verification_response_model.dart';
+export 'package:bookme/data/model/payment_model.dart';
+export 'package:bookme/data/model/individual_chat.dart';
+export 'package:bookme/data/model/bid/bid_comment_model.dart';

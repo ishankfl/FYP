@@ -1,0 +1,12 @@
+export 'package:bookme/data/repository/bid/bid_repo.dart';
+export 'package:bookme/data/repository/chat/chat_user_list_repo.dart';
+export 'package:bookme/data/repository/fetch_booking_repo.dart';
+export 'package:bookme/data/repository/fetch_profile_repo.dart';
+export 'package:bookme/data/repository/fetch_providers_repo.dart';
+export 'package:bookme/data/repository/authetication/verification_response_repo.dart';
+export 'package:bookme/data/repository/authetication/usersignup_repo.dart';
+export 'package:bookme/data/repository/time_validation_repo.dart';
+export 'package:bookme/data/repository/services_repository.dart';
+export 'package:bookme/data/repository/authetication/login_repo.dart';
+export 'package:bookme/data/repository/payment_repo.dart';
+export 'package:bookme/data/repository/authetication/provider_signup_repo.dart';
